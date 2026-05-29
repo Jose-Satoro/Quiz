@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz sobre HTML, CSS e JavaScript</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Quiz sobre HTML, CSS e JavaScript</h1>
+
+    <form id="quiz-form">
+      <section class="question-block">
+        <h2>1. Qual tag é usada para criar um link em HTML?</h2>
+        <label><input type="radio" name="q1" value="a" /> &lt;img&gt;</label>
+        <label><input type="radio" name="q1" value="b" /> &lt;a&gt;</label>
+        <label><input type="radio" name="q1" value="c" /> &lt;div&gt;</label>
+      </section>
+
+      <section class="question-block">
+        <h2>2. Qual propriedade CSS altera a cor de fundo?</h2>
+        <label><input type="radio" name="q2" value="a" /> color</label>
+        <label><input type="radio" name="q2" value="b" /> background-color</label>
+        <label><input type="radio" name="q2" value="c" /> font-size</label>
+      </section>
+
+      <section class="question-block">
+        <h2>3. Como se declara uma variável em JavaScript?</h2>
+        <label><input type="radio" name="q3" value="a" /> variable nome = 10;</label>
+        <label><input type="radio" name="q3" value="b" /> let nome = 10;</label>
+        <label><input type="radio" name="q3" value="c" /> var = nome 10;</label>
+      </section>
+
+      <section class="question-block">
+        <h2>4. Qual atributo HTML define texto alternativo para uma imagem?</h2>
+        <label><input type="radio" name="q4" value="a" /> src</label>
+        <label><input type="radio" name="q4" value="b" /> alt</label>
+        <label><input type="radio" name="q4" value="c" /> title</label>
+      </section>
+
+      <section class="question-block">
+        <h2>5. Qual método JavaScript exibe uma mensagem no console?</h2>
+        <label><input type="radio" name="q5" value="a" /> console.show()</label>
+        <label><input type="radio" name="q5" value="b" /> console.log()</label>
+        <label><input type="radio" name="q5" value="c" /> print()</label>
+      </section>
+
+      <button type="submit" class="submit-button">Enviar respostas</button>
+    </form>
+
+    <div id="results" class="results hidden"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
