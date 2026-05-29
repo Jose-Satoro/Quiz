@@ -12,38 +12,38 @@
 
     <form id="quiz-form">
       <section class="question-block">
-        <h2>1. Qual tag é usada para criar um link em HTML?</h2>
-        <label><input type="radio" name="q1" value="a" /> &lt;img&gt;</label>
-        <label><input type="radio" name="q1" value="b" /> &lt;a&gt;</label>
-        <label><input type="radio" name="q1" value="c" /> &lt;div&gt;</label>
+        <h2>1. Em relação aos Web Fonts no CSS, qual declaração carrega uma fonte personalizada de forma correta?</h2>
+        <label><input type="radio" name="q1" value="a" /> @font-face { font-family: 'CustomFont'; src: url('font.ttf'); }</label>
+        <label><input type="radio" name="q1" value="b" /> @import url('font.ttf') as CustomFont;</label>
+        <label><input type="radio" name="q1" value="c" /> &lt;link font="CustomFont" href="font.ttf"&gt;</label>
       </section>
 
       <section class="question-block">
-        <h2>2. Qual propriedade CSS altera a cor de fundo?</h2>
-        <label><input type="radio" name="q2" value="a" /> color</label>
-        <label><input type="radio" name="q2" value="b" /> background-color</label>
-        <label><input type="radio" name="q2" value="c" /> font-size</label>
+        <h2>2. Qual é a diferença principal entre "display: inline-block" e "display: flex"?</h2>
+        <label><input type="radio" name="q2" value="a" /> flex permite alinhamento em dois eixos, enquanto inline-block funciona apenas em uma linha</label>
+        <label><input type="radio" name="q2" value="b" /> Não há diferença, são equivalentes</label>
+        <label><input type="radio" name="q2" value="c" /> inline-block oferece melhor performance</label>
       </section>
 
       <section class="question-block">
-        <h2>3. Como se declara uma variável em JavaScript?</h2>
-        <label><input type="radio" name="q3" value="a" /> variable nome = 10;</label>
-        <label><input type="radio" name="q3" value="b" /> let nome = 10;</label>
-        <label><input type="radio" name="q3" value="c" /> var = nome 10;</label>
+        <h2>3. O que faz a função "reduce()" em JavaScript e qual é seu caso de uso mais comum?</h2>
+        <label><input type="radio" name="q3" value="a" /> Remove elementos duplicados de um array</label>
+        <label><input type="radio" name="q3" value="b" /> Reduz um array a um único valor acumulando resultados de uma função</label>
+        <label><input type="radio" name="q3" value="c" /> Diminui o tamanho do array pela metade</label>
       </section>
 
       <section class="question-block">
-        <h2>4. Qual atributo HTML define texto alternativo para uma imagem?</h2>
-        <label><input type="radio" name="q4" value="a" /> src</label>
-        <label><input type="radio" name="q4" value="b" /> alt</label>
-        <label><input type="radio" name="q4" value="c" /> title</label>
+        <h2>4. Qual é a diferença entre "data attributes" (data-*) e propriedades comuns em HTML?</h2>
+        <label><input type="radio" name="q4" value="a" /> data-* armazena dados customizados acessíveis via JavaScript e CSS, sem validação HTML padrão</label>
+        <label><input type="radio" name="q4" value="b" /> Não há diferença, são a mesma coisa</label>
+        <label><input type="radio" name="q4" value="c" /> data-* são apenas para estilos CSS, não para JavaScript</label>
       </section>
 
       <section class="question-block">
-        <h2>5. Qual método JavaScript exibe uma mensagem no console?</h2>
-        <label><input type="radio" name="q5" value="a" /> console.show()</label>
-        <label><input type="radio" name="q5" value="b" /> console.log()</label>
-        <label><input type="radio" name="q5" value="c" /> print()</label>
+        <h2>5. Como o "event delegation" funciona em JavaScript e por que é útil?</h2>
+        <label><input type="radio" name="q5" value="a" /> Anexa listeners a elementos específicos para melhor performance</label>
+        <label><input type="radio" name="q5" value="b" /> Anexa um listener ao elemento pai que captura eventos de filhos usando event bubbling, útil para elementos dinâmicos</label>
+        <label><input type="radio" name="q5" value="c" /> Delega o processamento de eventos para um worker thread</label>
       </section>
 
       <button type="submit" class="submit-button">Enviar respostas</button>

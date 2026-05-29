@@ -2,10 +2,10 @@ const quizForm = document.getElementById('quiz-form');
 const resultsElement = document.getElementById('results');
 
 const correctAnswers = {
-  q1: 'b',
-  q2: 'b',
+  q1: 'a',
+  q2: 'a',
   q3: 'b',
-  q4: 'b',
+  q4: 'a',
   q5: 'b',
 };
 
